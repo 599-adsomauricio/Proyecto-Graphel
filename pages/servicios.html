@@ -1,77 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Graphel</title>
+    <title>Servicios - Proyecto Graphel</title>
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
 
+    <!-- ENCABEZADO -->
     <header id="inicio">
         <div class="contenedor encabezado">
             <h1 class="logo">Diseño <span>Multimedia</span></h1>
 
-             <nav>
+            <nav>
                 <a href="../index.html">INICIO</a>
-                <a href="nosotros.html" >NOSOTROS</a>
-                <a href="#servicios" class="activo">SERVICIOS</a>
+                <a href="nosotros.html">NOSOTROS</a>
+                <a href="servicios.html" class="activo">SERVICIOS</a>
                 <a href="contacto.html">CONTACTO</a>
             </nav>
         </div>
     </header>
 
+    <!-- BOLETÍN -->
     <section class="boletin">
         <div class="contenedor contenido-boletin">
+
             <h3>Subscríbete a nuestro boletín</h3>
 
             <form action="#">
                 <input type="email" placeholder="Ingrese el Email..." required>
                 <button type="submit">Subscribirse</button>
             </form>
+
         </div>
     </section>
 
-    <section class="servicios" id="servicios">
-        <div class="contenedor nosotros">
+    <!-- CONTENIDO DE SERVICIOS -->
+    <section class="pagina-servicios">
 
-            <article class="Nosotros">
-               <h4>Nosotros</h4>
-                <p>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius
-                    auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra
-                     tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna.
-                     Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim
-                      feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci.
-                       Integer hendrerit ante ut placerat cursus.
-        
-                </p>
-            </article>
-            <article class="tarjetaSer">
-                <h3> Que hacemos</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor
-                     lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor.
-                      Etiam velit eros, dapibus eget porta in, lacinia et magna
-                </p>
-            </article>
+        <div class="contenedor servicios-layout">
 
-            <article class="tarjeta">
-                
-                
+            <!-- COLUMNA IZQUIERDA -->
+            <main class="servicios-contenido">
+
+                <h3>Servicios</h3>
+
+                <article class="servicio-item">
+                    <h3>Diseño Web</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vivamus mi augue, viverra sit amet ultricies at,
+                        vulputate id lorem. Nulla facilisi.
+                    </p>
+
+                    <p>Precio: $300000 - $1000000</p>
+                </article>
+
+                <article class="servicio-item">
+                    <h3>Desarrollo Web</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vivamus mi augue, viverra sit amet ultricies at,
+                        vulputate id lorem. Nulla facilisi.
+                    </p>
+
+                    <p>Precio desde: $1000000</p>
+                </article>
+
+                <article class="servicio-item">
+                    <h3>Hosting Web</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vivamus mi augue, viverra sit amet ultricies at,
+                        vulputate id lorem. Nulla facilisi.
+                    </p>
+
+                    <p>Precio: $300000</p>
+                </article>
+
+            </main>
+
+            <!-- COLUMNA DERECHA -->
+            <aside class="servicios-lateral">
+
+                <h3>Que hacemos</h3>
+
                 <p>
-                  Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor, vel ultrices dui tincidunt
-                   Proin quis egestas lorem. Mauris vehicula lectus odio, sit amet dictum justo feugiat a. Praesent
-                    id dictum lacus. Sed ullamcorper id erat ut dictum. Fusce porttitor lorem sapien, in aliquet sapien
-                     convallis id. Donec nec mauris nulla. Curabitur cursus semper odio, et hendrerit ante. Nunc at cursus ante.
-                      Maecenas gravida ligula ut efficitur suscipit. Nulla id turpis varius, pretium nunc sed, fermentum sem.
-                       Sed lacinia nunc non interdum pellentesque.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec varius auctor lacus nec feugiat. Phasellus sit
+                    amet ex ipsum. Praesent pharetra tincidunt tempor.
+                    Etiam velit eros, dapibus eget porta in, lacinia et magna.
                 </p>
-            </article>
-            
+
+            </aside>
+
         </div>
+
     </section>
 
+    <!-- PIE DE PÁGINA -->
     <footer id="contacto">
         <p>Graphel Desarrollo Web, Copyright &copy; 2017</p>
     </footer>
